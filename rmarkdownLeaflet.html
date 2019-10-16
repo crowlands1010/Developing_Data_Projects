@@ -182,13 +182,20 @@ hljs.initHighlightingOnLoad();
 <!-- rmarkdown v1 -->
 
 <h2>Swansea, UK - Points of Interest</h2>
-
-<pre><code class="r">swanseaMap &lt;- leaflet() %&gt;% addTiles()
+<pre><code class="r">
+swanseaMap &lt;- leaflet() %&gt;% addTiles()
 swanseaMap &lt;- swanseaMap %&gt;% addMarkers(lat=51.57344,lng=-3.99237,popup=&quot;The Mumbles Beach&quot;)
 swanseaMap &lt;- swanseaMap %&gt;% addMarkers(lat=51.57645,lng=-4.00297,popup=&quot;Oystermouth Castle&quot;)
 swanseaMap &lt;- swanseaMap %&gt;% addMarkers(lat=51.621441,lng=-3.943646,popup=&quot;Swansea, UK&quot;)
 swanseaMap
 </code></pre>
+<p>
+<span id="datetime"></span>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+</p>
 <p>
 <object type="text/html" data="rmdLeaflet.html" width="1000px" height="750px" />
 </p>
