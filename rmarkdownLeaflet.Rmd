@@ -1,7 +1,6 @@
 ---
 title: "Leaflet Map"
 author: "Courtney Rowlands"
-date: "10/14/2019"
 output: 
   html_document:
     keep_md: yes
