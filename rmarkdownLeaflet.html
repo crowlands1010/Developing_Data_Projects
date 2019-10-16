@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=9" >
 
-<title>Map</title>
+<title>Swansea Points of Interest</title>
 
 <style type="text/css">
 body, td {
@@ -179,12 +179,9 @@ hljs.initHighlightingOnLoad();
 </head>
 
 <body>
+<!-- rmarkdown v1 -->
 
-<pre><code>## This version of Shiny is designed to work with &#39;htmlwidgets&#39; &gt;= 1.5.
-##     Please upgrade via install.packages(&#39;htmlwidgets&#39;).
-</code></pre>
-
-<h2>Map</h2>
+<h2>Swansea, UK - Points of Interest</h2>
 
 <pre><code class="r">swanseaMap &lt;- leaflet() %&gt;% addTiles()
 swanseaMap &lt;- swanseaMap %&gt;% addMarkers(lat=51.57344,lng=-3.99237,popup=&quot;The Mumbles Beach&quot;)
@@ -192,9 +189,9 @@ swanseaMap &lt;- swanseaMap %&gt;% addMarkers(lat=51.57645,lng=-4.00297,popup=&q
 swanseaMap &lt;- swanseaMap %&gt;% addMarkers(lat=51.621441,lng=-3.943646,popup=&quot;Swansea, UK&quot;)
 swanseaMap
 </code></pre>
-
-
-
+<p>
+<object type="text/html" data="rmdLeaflet.html" width="1000px" height="750px" />
+</p>
 </body>
 
 </html>

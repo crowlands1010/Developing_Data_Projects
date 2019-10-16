@@ -10,10 +10,6 @@ pdf_document: default
 
 
 
-```
-## This version of Shiny is designed to work with 'htmlwidgets' >= 1.5.
-##     Please upgrade via install.packages('htmlwidgets').
-```
 
 ## Map
 
